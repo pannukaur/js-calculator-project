@@ -22,7 +22,7 @@ input[type=button]{
    margin: 2px; 
 } */
 
-*{
+/* *{
     margin: 0px;
     padding: 0px;
 }
@@ -69,4 +69,41 @@ input[type=button]{
 }
 .blue:hover{
     background-color: #03a9f4;
+} */
+
+*{
+    margin:0;
+
+}
+.main{
+    margin-left:45%;
+}
+.text-box{
+    background-color: #fff;
+    padding: 14px;
+    width: 460px;
+}
+input_text{
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+
+}
+#add_text{
+    height: 30px;
+    background-color:green;
+    border: none;
+    color:white;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 250px;
+}
+li{
+    width: 100px;
+    background-color: #1f9152;
+    color:#4d42ab;
+    padding: 10px 15px;
+    border-top: 1px solid #000;
 }

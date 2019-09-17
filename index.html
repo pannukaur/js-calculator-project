@@ -11,21 +11,21 @@
 <body>
     <!-- <h3 style="text-align:center">Web Calculator App</h3>
     <div id="container">
-        <form name="form">
-        <input type="text" name="result"><br>
-        <input type="button" value="1">
-        <input type="button" value="2">
-        <input type="button" value="3">
-        <input type="button" value="4">
+        <form name="myForm">
+        <input type="text" name="textview" class="textview" disabled><br>
+        <input type="button" class="number" value="1" onclick="insertNum(1)">
+        <input type="button" class="number" value="2" onclick="insertNum(2)">
+        <input type="button" class="number" value="3" onclick="insertNum(3)">
+        <input type="button" class="number" value="4" onclick="insertNum(4)">
          <br><br>
-        <input type="button" value="5">
-        <input type="button" value="6">
-        <input type="button" value="7">
-        <input type="button" value="8">
+        <input type="button" class="number" value="5" onclick="insertNum(5)">
+        <input type="button" class="number" value="6" onclick="insertNum(6)">
+        <input type="button" class="number" value="7" onclick="insertNum(7)">
+        <input type="button" class="number" value="8" onclick="insertNum(8)">
         <br><br>
-        <input type="button" value="9">
-        <input type="button" value="0">
-        <input type="button" value=".">
+        <input type="button" class="number" value="9" onclick="insertNum(9)">
+        <input type="button" class="number" value="0" onclick="insertNum(0)">
+        <input type="button" class="number" value=".">
         <input type="button" value="+">
         <br><br>
         <input type="button" value="-">
@@ -38,10 +38,7 @@
         </form>
  
     </div> -->
-
-
-
-    <div class="main">
+<!-- <div class="main">
         <form name="myform">
            <input type="text" name="textview" class="textview" disabled>
            <table>
@@ -77,8 +74,24 @@
                             </tr>
            </table>
         </form>
-
     </div>
+    </div> -->
+
+
+    <div class="main">
+        <section class="text-box">
+            <input type="text" placeholder="Enter-item" id="txtVal" />
+            <button onclick="addli()" id="add_text">ADD</button>
+            <button onclick="addli()" id="add_text">Edit</button>
+            <button onclick="addli()" id="add_text">Delete</button>
+             <ul id="list">
+                
+            </ul>
+        </section>
+    </div>  
+
+
+
 </body>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
